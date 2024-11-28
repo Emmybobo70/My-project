@@ -1,0 +1,49 @@
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    background-image: url('https://www.googleadservices.com/pagead/aclk?sa=L&ai=CPNitBy9IZ5iiLPuC9u8PyMebgQL-qNyve7KEv9GXE7CQHxABIABgt7yDhfQwggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAf_bisgDqAMEyAMKqgTGAU_QgaX8-Ozdx5iyJLn8DLCUeW6lAnGVB8OEe7OtxlgSKBhwIGM4JSpFS0uWgOC15xoqtdOpD45vrac2ebQ3LvTiGchhT4u0E8okoJls8SWQWQJ6gi4WqVm2YZazlqLmFL0S7ykqGgK_XPjf4L38vV4xU946N3SJ8inB5Z0Hi3xmdRSgTAzkeA0PIvWStIIJ3BwUubbm4DKZfUZfYn2CHEM0NHHMXw5E98uAl7jAqHt5x19dLS-LbSuKAvlXqwUBYJnpq7nr9JIFCggTaAF4uPycpAKgBqEBgAfB0vejAogHAZAHAqgH-bGxAqgHgLqxAqgH8sCxAqgHuMSxAqgH552xAqgH6J2xAqgH6rexAqgHp7WxAqgH77WxAqgH8LWxAqgHgqqxAqgHhAioB6jSG6gHtgeoB7HcG6gHpJqxAqgHkZ-xAqgHsJuxAqgHrrGxAqgH5ryxAqgHpqqxAqgHyrqxAqgH7MCxAqgH_bKxAqgH97ixAqgH-LixAqgHpcyxAqgHgcYbqAf8r7ECqAfVzhuoB6vFG6gHnNwbqAe3obECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLV0ZtRS1nSkg0dVWoCAHSCCsIABACGFoyAQA6EI_QgICAgASAwICAgKCAgAJI2aDSNVAUWPiv_vzS_okDmgkbaHR0cHM6Ly93d3cuZ3JhbW1hcmx5LmNvbS9hsQmm7a8BgX9absgJF8gJjwHICcIBmAsBugtTCAIQBRgEIAcoATADQAFIAFhkYABoAHABiAEAmAEBogEmChsgA9q4BBUyEzoRCg8oMEjzj631hBuYGQG4IAHQAQGoAgXAAgKoAQHYAQGAAgGIAgbQCxLaDCUKChCA-eG9wce23FwSAgEDGg0Y3KWHnE4g_uicqcQEQAFKAhAfmg0BEqANAaoNAk5HyA0B0g2VAWh0dHBzOi8vd3d3LmdyYW1tYXJseS5jb20vYT91dG1fc291cmNlPWdvb2dsZWRlbWFuZGdlbiZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249MjA5OTY4MDUzNDAmdXRtX2NvbnRlbnQ9NzE1MzU2NTU1MzE1JmFkZ3JvdXA9MTU1Nzc5MDE5OTAyJmRldmljZT1juBP___________8BsBQCwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRfvQKdVDqYw4roXBCgAMAA&ase=2&gclid=CjwKCAiAxqC6BhBcEiwAlXp45_eFuUy_qjks4VO5GqDFs9budquy1yo0AW9aI7Hh_fBCCnFn0o1jhRoCPkwQAvD_BwE&num=1&cid=CAESD-D21LuKVTotjV4PKj4R3A&ad_cpn=%5BCPN%5D&sig=AOD64_0OtkrivQLc6rXx1BWmSElcLF2vkA&ctype=110&video_id=WFmE-gJH4uU&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=%5BNB%5D&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-overlay {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+  }
+  
+  .hero-overlay h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-overlay p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .play-button {
+    background-color: #f04e23; /* Button color */
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .play-button span {
+    color: white;
+    font-size: 1.5rem;
+  }

@@ -1,0 +1,40 @@
+.container {  
+  display: flex;  
+  flex-direction: column; 
+  padding: 40px;  
+  background: white; 
+}  
+
+.text-section {  
+  margin-bottom: 20px;  
+}  
+
+.title {  
+  font-size: 32px;  
+  color: #FF6A13;  
+  margin: 0;  
+}  
+
+.subtitle {  
+  font-size: 24px;  
+  font-weight: bold;  
+  margin: 0;   
+}  
+
+.description {  
+  margin-top: 10px; 
+  color: #333;  
+}  
+
+.image-section {  
+  display: flex; 
+  gap: 50px; 
+}  
+
+.design-image {  
+  width: 100%; 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 8px; 
+}  
+

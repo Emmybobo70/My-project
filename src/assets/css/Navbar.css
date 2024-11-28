@@ -1,0 +1,65 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo Styling */
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Links Styling */
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+  }
+  
+  .navbar-links li {
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .navbar-links .active {
+    color: #ff4500; 
+  }
+  
+  .navbar-links .active .dot {
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #ff4500;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Icons Styling */
+  .navbar-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .search-icon,
+  .menu-icon {
+    color: black;
+  }

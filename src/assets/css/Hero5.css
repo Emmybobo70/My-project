@@ -1,0 +1,52 @@
+.hero-section {  
+    background-color: #FF5722; /* Orange background */  
+    padding: 20px 0;  
+    text-align: center;
+    margin-top: 150px;  
+}  
+
+.hero-content {  
+    max-width: 800px;  
+    margin: 20px;  
+    color: white;  
+    display: flex;  
+    justify-content: space-around;  
+    align-items: center;  
+}  
+
+.stat {  
+    flex: 1;  
+}  
+
+.stat span {  
+    font-size: 24px;  
+    font-weight: bold;  
+}  
+
+.stat p {  
+    margin: 0;  
+    font-size: 16px;  
+}  
+
+.call-us {  
+    flex: 1;  
+    margin-top: 20px;  
+}  
+
+.call-us span {  
+    display: block;  
+    font-size: 16px;  
+}  
+
+.call-us strong {  
+    font-size: 24px;  
+    font-weight: bold;  
+}  
+
+/* Optional styling for a black background */  
+.hero-section::after {  
+    content: '';  
+    display: block;  
+    height: 50px;  
+    
+}  

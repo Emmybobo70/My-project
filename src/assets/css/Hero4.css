@@ -1,0 +1,53 @@
+.awards-section {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .awards-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .awards-title span {
+    text-decoration: underline;
+  }
+  
+  .awards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .award-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .award-content {
+    text-align: left;
+  }
+  
+  .award-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .award-studio {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .see-project {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+  }

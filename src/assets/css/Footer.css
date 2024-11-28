@@ -1,0 +1,56 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links,
+  .footer-contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li,
+  .footer-contact li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .footer-links li:hover,
+  .footer-contact li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .footer-column p {
+    margin: 5px 0;
+  }
+  
+  .highlight {
+    color: #ff6600; /* Orange highlight for 'Saying Hi' */
+    font-weight: bold;
+  }
+  
+  .footer p {
+    color: #333;
+  }
+  
+  .footer-column:last-child {
+    margin-right: 0;
+  }
